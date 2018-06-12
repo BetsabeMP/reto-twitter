@@ -1,0 +1,19 @@
+body {
+    background-image: url(../img/flower-white-shell-sand-beach.jpg);
+    width: 100%;
+}
+header {
+    text-align: center;
+    margin: 0%;
+    background-color: #1daff2;
+    color: white;
+}
+
+#title {
+    text-align: center;
+}
+
+#textoFijo {
+    text-align: center;
+    background-color:white;
+}
