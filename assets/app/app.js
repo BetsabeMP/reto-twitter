@@ -11,6 +11,12 @@ boton.addEventListener('click', () => {
     //crear un div contenedor
     const newComments = document.createElement("div");
 
+    //texto vacío = deshabilitar botón
+    if(comments.length == 0 || comments == null) {
+        boton.disabled = true;
+        return false;
+    }
+
     //nodo de texto del textarea
     let textNewComment = document.createTextNode(comments);
 
